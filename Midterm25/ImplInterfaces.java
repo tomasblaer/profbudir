@@ -35,10 +35,10 @@ class Person implements Comparable<Person> {
 
 public class ImplInterfaces {
     public static void main(String[] args) {
-//        Person person1 = new Person();
-//        Person person2 = new Person();
+        Person person1 = new Person();
+        Person person2 = new Person();
 
-//        person1.compareTo(person2);
+        person1.compareTo(person2);
 
     }
 }

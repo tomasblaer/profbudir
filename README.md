@@ -1,0 +1,6 @@
+- for/while lykkjur, boddy og aðal componentar, lesa inn i array
+- klasa (abstract, interface og venjulega), inheritance, properties, methods ofl
+- UML diagram fyrir klasa
+- Expressions, +-*%, <>== og type promotion
+- Conditions
+- Immutability
