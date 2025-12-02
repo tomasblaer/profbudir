@@ -92,16 +92,16 @@ public class Inheritance {
         conv.load();
 
 //        This won't compile
-        CoolerTruck ct = new Truck();
-        ct.currTemp = -18;
+//        CoolerTruck ct = new Truck();
+//        ct.currTemp = -18;
 
 //        Won't compile, can't instantiate an abstract class
-        MotorVehicle mv = new MotorVehicle();
-        mv.accelerate();
+//        MotorVehicle mv = new MotorVehicle();
+//        mv.accelerate();
 
 //        Won't compile, since with the reference type Car, you won't be able to access Convertible-only functions
-        Car car = new Convertible();
-        car.openTop();
+//        Car car = new Convertible();
+//        car.openTop();
 
     }
 }
