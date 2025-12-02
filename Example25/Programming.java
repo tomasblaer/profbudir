@@ -18,7 +18,10 @@ public class Programming {
          * boolean m3 == mm / 1000;
          */
 
+//        double m3 == mm / 1000;
+
         /*
+
          * No error
          */
         double m4 = mm / 1000.0;

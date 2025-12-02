@@ -1,7 +1,7 @@
 package Example25;
 
 class Person {
-    public final String kennitala;
+    private final String kennitala;
     private String name;
 
     public Person(String kennitala) {

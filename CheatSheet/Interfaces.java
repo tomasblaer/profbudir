@@ -2,7 +2,7 @@ package CheatSheet;
 
 
 /*
- * Í raun bara interface klasi sem má ekki vera með nein properties, né implemented methods,
+ * Í raun bara abstract klasi sem má ekki vera með nein properties, né implemented methods,
  * gert er ráð fyrir því að öll method í interfaceinu séu abstract & public.
  */
 interface Animal {
@@ -33,8 +33,8 @@ class Cat implements Animal {
 
 public class Interfaces {
     public static void main(String[] args) {
-        Pig animal = new Pig();
-        animal.sleep(10);
+        Animal animal = new Pig();
+        animal.makeSound();
     }
 
 }
